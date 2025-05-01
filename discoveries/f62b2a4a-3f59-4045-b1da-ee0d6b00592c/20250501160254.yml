@@ -1,0 +1,1101 @@
+id: '2ea6d64a-38f6-4e16-b78d-26ffa30c9092'
+name: 'C3-X-DB-FI'
+timestamp: '2025-05-01T16:02:54+00:00'
+sourceObjects:
+  - id: 'd5cf0431-716d-4dcd-a333-9625c172be6b'
+    name: 'CREDITCARD'
+    description: 'Generated Model Object from CREDITCARD'
+    fullyQualifiedName: 'STG_ST_CREDITCARD_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: '129ada7c-a6a8-465e-a548-a1f637cab7a2'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: '99729506-dd86-455f-8884-447394a99eb6'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: '92f5ed50-1b54-4132-998e-7aeff66658d0'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'cb94c801-dff8-40ea-a044-6b0dbfdff764'
+        name: 'creditcardid'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: false
+      - id: '743ae6bc-1205-4084-b2d3-c5ce628ef462'
+        name: 'cardtype'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '3bc4f70e-84c9-463f-b067-6ea917a4a4aa'
+        name: 'cardnumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '003c03a4-40f8-4fbd-a792-a9a00da92cfc'
+        name: 'expmonth'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '0d8221d1-ed8e-4d91-95e4-83510f98c75b'
+        name: 'expyear'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: '866074d0-0a03-47f8-ba7a-d45356078a19'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: '742f3e56-f89b-49ab-81bc-ec8262db63f7'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: 'f01e455e-44aa-4364-8342-47dff774e10c'
+          targetModelObjectId: 'd5cf0431-716d-4dcd-a333-9625c172be6b'
+      modelObjects:
+        - id: 'd5cf0431-716d-4dcd-a333-9625c172be6b'
+          name: 'CREDITCARD'
+          modelObjectType: 'Stage'
+        - id: 'f01e455e-44aa-4364-8342-47dff774e10c'
+          name: 'CREDITCARD'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+  - id: 'bbe536fa-cfda-499f-bee1-4e56ae1d541f'
+    name: 'CURRENCY'
+    description: 'Generated Model Object from CURRENCY'
+    fullyQualifiedName: 'STG_ST_CURRENCY_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: 'c881beb2-d42e-4752-96c0-cf2917ab3970'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: 'ba77cb70-0c5c-45cb-81b1-6329d705a69f'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: '7126f466-aa9b-4295-a1ac-2e4df2f49237'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '9cb731c3-67a0-46f7-969f-8c28038d01eb'
+        name: 'currencycode'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: 'ada91f52-20e2-4d3d-92b7-fc74354f4737'
+        name: 'name'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'b8c6c0fa-6413-494c-9437-7794b13e2949'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: '959f66c6-80ab-4d2d-90c2-d19e0ebd1fcf'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: 'f8cfd242-b059-40a8-aac2-593edd26905d'
+          targetModelObjectId: 'bbe536fa-cfda-499f-bee1-4e56ae1d541f'
+      modelObjects:
+        - id: 'bbe536fa-cfda-499f-bee1-4e56ae1d541f'
+          name: 'CURRENCY'
+          modelObjectType: 'Stage'
+        - id: 'f8cfd242-b059-40a8-aac2-593edd26905d'
+          name: 'CURRENCY'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+  - id: 'c08ded43-22f4-4fcd-9d98-315cdc984e44'
+    name: 'CURRENCYRATE'
+    description: 'Generated Model Object from CURRENCYRATE'
+    fullyQualifiedName: 'STG_ST_CURRENCYRATE_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: '4a41de45-c696-42ab-acbb-4271086127da'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: 'fe9355bd-5e0b-4d49-9bf8-ff9e69778531'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: '304be3fa-88ca-43d0-85a2-22ed929b4454'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'a7732c1c-1765-4146-bac6-e10789344793'
+        name: 'currencyrateid'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: false
+      - id: '17277fb6-f59a-4143-9f18-e66dea7b7f74'
+        name: 'currencyratedate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'b764e6fa-6173-43b0-9ef9-e690d659e56a'
+        name: 'fromcurrencycode'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'fcca6bc2-95b2-47b7-929b-d1c99461e89d'
+        name: 'tocurrencycode'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'a0fc2a5c-1bce-4089-9c89-57dacf065c44'
+        name: 'averagerate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '88950328-3a7e-4bbe-8815-ae2c4cf5f528'
+        name: 'endofdayrate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '78cd48f9-cb57-4abd-acdd-57a3e8f96254'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'a2551452-12bf-4686-aa99-bbe52bf3d538'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: '45afa0fd-2974-4125-99a4-b29073414ac6'
+          targetModelObjectId: 'c08ded43-22f4-4fcd-9d98-315cdc984e44'
+      modelObjects:
+        - id: 'c08ded43-22f4-4fcd-9d98-315cdc984e44'
+          name: 'CURRENCYRATE'
+          modelObjectType: 'Stage'
+        - id: '45afa0fd-2974-4125-99a4-b29073414ac6'
+          name: 'CURRENCYRATE'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+  - id: '6ffe505a-7b12-42ef-a8be-aa0a80db665e'
+    name: 'CUSTOMER'
+    description: 'Generated Model Object from CUSTOMER'
+    fullyQualifiedName: 'STG_ST_CUSTOMER_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: 'f6f854ab-32ac-4564-9099-9181494ef365'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: '51a0a43b-4ed6-4529-a42a-7c39b2d6b32f'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: 'ffe8f702-6c68-489f-be06-10ad5c12096c'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '128a9858-1a7a-4de4-84ac-bfe223812c72'
+        name: 'customerid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '8edece5e-ab29-488e-a706-11d82dc20f3f'
+        name: 'personid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '7b93f58b-c868-4c61-b561-9a2aa8132736'
+        name: 'storeid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '96d1d87b-9ba9-4cbc-95b8-242281dda0b8'
+        name: 'territoryid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '1ab3b6e7-03ce-4508-9286-a2d0dc92ec87'
+        name: 'accountnumber'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: 'e08348e8-bae0-415c-beff-9062ead46e3f'
+        name: 'rowguid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '9b084146-a074-483f-8f0b-05a0dbdf8803'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'd29da969-76c2-4734-be19-54e9cb699b1c'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: '0049ef45-c68e-4bc1-a9e3-bb584496728c'
+          targetModelObjectId: '6ffe505a-7b12-42ef-a8be-aa0a80db665e'
+      modelObjects:
+        - id: '6ffe505a-7b12-42ef-a8be-aa0a80db665e'
+          name: 'CUSTOMER'
+          modelObjectType: 'Stage'
+        - id: '0049ef45-c68e-4bc1-a9e3-bb584496728c'
+          name: 'CUSTOMER'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+  - id: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
+    name: 'SALESORDERDETAIL'
+    description: 'Generated Model Object from SALESORDERDETAIL'
+    fullyQualifiedName: 'STG_ST_SALESORDERDETAIL_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: 'b1485aca-5549-4fd1-99e4-7649608d9af0'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: '857e0223-b312-4e05-b64e-8451e1041dd3'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: '8cd3896c-1d1c-4824-9c6f-543f51bc009a'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '4ede442a-d81d-4b47-9c15-723e363ebdcb'
+        name: 'salesorderid'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: false
+      - id: 'baa4c026-2e18-4204-aeba-6b6f124d6a01'
+        name: 'salesorderdetailid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '5b07a197-2f8d-4cf0-8b41-34d0837025d1'
+        name: 'carriertrackingnumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '89175dd6-8df8-48f3-816f-101cdeb1c493'
+        name: 'orderqty'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '6ff98206-082c-41a4-a40b-455baec46c5d'
+        name: 'productid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '72e68755-9977-45bf-8417-704bc1a20478'
+        name: 'specialofferid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '268e9dfb-4549-4ca2-9a1d-ea0daa96a695'
+        name: 'unitprice'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '8e8f8f36-540d-438f-b896-23f514587d30'
+        name: 'unitpricediscount'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: 'b63f149b-147c-4cf6-b5ed-07e6e261da81'
+        name: 'linetotal'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 6
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 6
+      - id: 'a6374a36-c1db-42d3-b8d0-da7cea92a01d'
+        name: 'rowguid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '15f4579e-c733-428e-b9bd-8c75f946e4c7'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: '002dd83e-e846-475a-9e70-ac59e2ab99ab'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: 'fa156d65-b34a-4744-896d-4b6ecf730fe8'
+          targetModelObjectId: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
+      modelObjects:
+        - id: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
+          name: 'SALESORDERDETAIL'
+          modelObjectType: 'Stage'
+        - id: 'fa156d65-b34a-4744-896d-4b6ecf730fe8'
+          name: 'SALESORDERDETAIL'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+  - id: 'a244b999-e129-4838-adff-71417e8d8cb7'
+    name: 'SALESORDERHEADER'
+    description: 'Generated Model Object from SALESORDERHEADER'
+    fullyQualifiedName: 'STG_ST_SALESORDERHEADER_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: 'b28067b3-c797-4d16-ae5d-72a7fef101c8'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: '71569624-dd8f-4bd7-a87f-c15833eb18ec'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: '53d28a0b-b9f6-4ab2-ae7c-289919f29807'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'ebab951c-2665-4fd8-b7bb-0ec3323dd5dc'
+        name: 'salesorderid'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: false
+      - id: 'cc555a44-ab84-4e6f-b4f7-a88fc26a2b8c'
+        name: 'revisionnumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'ef8a7d81-4ec3-4953-945f-99f45162f4b8'
+        name: 'orderdate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'fa85ba33-8803-4a76-9cc1-916e67e63032'
+        name: 'duedate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: '703d47a1-240d-4878-a95f-c1d84d50b386'
+        name: 'shipdate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'c2efe254-4b6a-458a-a80d-111136ac17f0'
+        name: 'status'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '673912d0-f0af-41c7-91e1-15d2236a27a8'
+        name: 'onlineorderflag'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '4945429d-ab6b-4eeb-b387-cf099eee74b3'
+        name: 'salesordernumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '710160b4-6d09-4096-a9c8-4e77d048d925'
+        name: 'purchaseordernumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '57efdef0-2bbe-4b2a-a11f-b804739792a0'
+        name: 'accountnumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'd2a594d2-9650-4257-9588-d65a61809787'
+        name: 'customerid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'c0d58d07-f46d-4209-8176-2dd2a81090f7'
+        name: 'salespersonid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'c3e7fee6-416a-44d6-9df1-c08eb4220081'
+        name: 'territoryid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'b2247a07-2ad5-4a0f-8ef8-02497c60881d'
+        name: 'billtoaddressid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '4ad31089-4f01-4aed-a792-1c75a4b058c9'
+        name: 'shiptoaddressid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '11238a27-68ce-43a2-b01e-16a6e6d1abb2'
+        name: 'shipmethodid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'f635c5e0-1f06-446c-88c1-1a196f503787'
+        name: 'creditcardid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: 'd70c058d-6de0-49cb-bc7c-dae44aa85367'
+        name: 'creditcardapprovalcode'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '4fd6616a-abab-4348-bf9f-6197fee3d906'
+        name: 'currencyrateid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '10728be8-9f6a-41b8-94e3-4fe94f6346b4'
+        name: 'subtotal'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '0a3d7dc5-4a0a-402d-940a-5362248d6cfc'
+        name: 'taxamt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '790e7e34-0f39-4ebc-aee7-9ad156c80ae0'
+        name: 'freight'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '91961367-f6eb-49f9-83da-78946f8a051f'
+        name: 'totaldue'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 19
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 19
+          scale: 4
+      - id: '68cefc2a-1d9c-45bd-b8a8-7d760d2797d1'
+        name: 'comment'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'e5e45878-491f-4d6d-97d7-12a1b98f27f0'
+        name: 'rowguid'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'a314cedd-0cd7-4953-9150-fa8fd9a4ce21'
+        name: 'modifieddate'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - id: 'cdc2cf09-9131-436d-842a-e7a27b825d29'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: '86d025dd-072d-4400-a557-57b16bf4e4b0'
+          targetModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
+      modelObjects:
+        - id: 'a244b999-e129-4838-adff-71417e8d8cb7'
+          name: 'SALESORDERHEADER'
+          modelObjectType: 'Stage'
+        - id: '86d025dd-072d-4400-a557-57b16bf4e4b0'
+          name: 'SALESORDERHEADER'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+sourceSystem:
+  type: 'Spark'
+tags:
+  - '$linkedproject#generatorVersion#1.9.0'
+  - '$linkedproject#id#d829e8ec-d42d-4473-737b-08dd7ccec69f'
