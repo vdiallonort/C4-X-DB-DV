@@ -1,0 +1,7 @@
+id: '0efa6075-1a45-4d56-737c-08dd7ccec69f'
+name: 'C3-X-DB-DV'
+description: ''
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark.Databricks'
+  version: '1.9.2'
