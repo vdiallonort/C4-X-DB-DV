@@ -19,6 +19,7 @@ views:
       - id: 'e4e749a8-055c-4544-8450-ef1c051bdd48'
       - id: '4733dbe5-36ab-4bda-b86b-9618e5fa95a2'
       - id: '316bbd7b-e97e-4046-9669-7a6eeb695b4b'
+      - id: '52e54288-b736-49fe-8a1b-f86c5037437f'
   - id: '6e77adad-5bfb-416e-b5c2-d8c1b5734544'
     name: 'Datamodel View 1'
     description: 'Default view for data model.'
