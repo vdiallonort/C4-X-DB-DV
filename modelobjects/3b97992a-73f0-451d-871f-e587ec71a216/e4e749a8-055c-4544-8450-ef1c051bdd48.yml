@@ -1,0 +1,498 @@
+id: 'e4e749a8-055c-4544-8450-ef1c051bdd48'
+name: 'SALESORDERHEADER'
+description: 'Generated Model Object from SALESORDERHEADER'
+modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
+terms:
+  - id: 'd013f917-af27-4e00-bccc-cd117f944583'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'b87e3abc-7075-4c1a-b9d4-96b8661694c0'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3f54638c-46cb-46bc-8e4e-8c35404addb9'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '30c5e580-4d1f-4b75-b2b7-1f41d70c34fb'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '4dca81de-8152-4e3d-9cc6-56e236ba8c81'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4848e3b2-32e0-4472-9fa8-548293a1a221'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '75a65419-5507-4e22-9283-187001818110'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2cf54119-dfb1-4c4e-b150-0f4a440a5244'
+    name: 'BG_DataflowSetName'
+    description: 'Default term for incremental load'
+    defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6bf2189d-546f-437d-90fb-48a56e6cc518'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: '8336a2ff-deca-4ae2-b940-6f333a314862'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+  - id: 'da6bdd36-42c1-44f1-b011-b8f9d75a056d'
+    name: 'FK_ORDER_salesordernumber'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4f241fd6-6a6a-47f0-846b-8e8b374a031f'
+    name: 'revisionnumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'e8ac92b4-db0a-4d2e-b2a5-b6602c334e10'
+    name: 'orderdate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '22a17dcd-50ec-4056-8ab4-5b108e877c71'
+    name: 'duedate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'a1672c03-0271-4a36-964e-d6c5dda99fe2'
+    name: 'shipdate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '1a6ea260-91da-4c2f-9742-5e698de0ecf4'
+    name: 'status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '53ced70b-590d-4d3a-9eee-17e75350f95c'
+    name: 'onlineorderflag'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '6cad4829-7053-475e-8cff-ea5c5926cc10'
+    name: 'salesordernumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5eb7f3d7-5aa1-4dd4-9ff4-7a08a5300273'
+    name: 'purchaseordernumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6dc6ffdc-d1cd-4a66-8ce1-959c3f05ea11'
+    name: 'accountnumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '98a9ae0e-2c74-49dc-8d32-c45ffb0efe36'
+    name: 'customerid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '961a36f4-51c0-4047-8524-b362d0553c3e'
+    name: 'salespersonid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'd49d0c63-e43f-43fe-acfe-a8a9eb21b3d9'
+    name: 'territoryid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '60face3d-10db-4c66-8a16-74374cdabf7e'
+    name: 'billtoaddressid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '8d8f797c-f259-4a28-924c-d1675910651c'
+    name: 'shiptoaddressid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'e78e0690-95e7-47b5-a096-536fc27875b2'
+    name: 'shipmethodid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'd2cbe040-f809-4049-b42e-3d6daf01f411'
+    name: 'creditcardid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'e78a50a5-fbc8-4147-8e02-58acbaa6e607'
+    name: 'creditcardapprovalcode'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '72dfffd0-d6ba-47df-ada0-ae2788c9de04'
+    name: 'currencyrateid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '784e136c-1d3e-471e-a488-8274657f4291'
+    name: 'subtotal'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
+  - id: 'bb8f7453-0b93-4873-a8d6-9f8ee2ae1658'
+    name: 'taxamt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
+  - id: 'e6645b11-8164-4b1c-83be-284a3222f333'
+    name: 'freight'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
+  - id: '9639525c-6c30-4cb0-be5b-d3e82d6db8bc'
+    name: 'totaldue'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
+  - id: 'a9505f49-3d79-4e2c-bf8d-5580d4d63ed7'
+    name: 'comment'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd2a42a8e-55a0-4294-b912-e3860561a692'
+    name: 'rowguid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0473f69d-8926-4224-8148-ab218f7c29c7'
+    name: 'modifieddate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '466dc3be-32db-40bb-a8ef-18acdf30edc9'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+dataflows:
+  - id: '8ac4f788-4a1e-432f-89d2-f520e35e80fc'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'cf9f2433-54f2-4ee2-ba9c-3940cd33dbe0'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '8e47126e-9ac0-4468-92db-03b6860d38d7'
+            alias: 's1'
+            sourceModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
+        termMappings:
+          - termId: 'd013f917-af27-4e00-bccc-cd117f944583'
+          - termId: 'b87e3abc-7075-4c1a-b9d4-96b8661694c0'
+          - termId: '3f54638c-46cb-46bc-8e4e-8c35404addb9'
+          - termId: '30c5e580-4d1f-4b75-b2b7-1f41d70c34fb'
+          - termId: '4dca81de-8152-4e3d-9cc6-56e236ba8c81'
+          - termId: '4848e3b2-32e0-4472-9fa8-548293a1a221'
+          - termId: '75a65419-5507-4e22-9283-187001818110'
+          - termId: '2cf54119-dfb1-4c4e-b150-0f4a440a5244'
+          - termId: '6bf2189d-546f-437d-90fb-48a56e6cc518'
+          - termId: '8336a2ff-deca-4ae2-b940-6f333a314862'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.4945429d-ab6b-4eeb-b387-cf099eee74b3'
+            termId: 'da6bdd36-42c1-44f1-b011-b8f9d75a056d'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.cc555a44-ab84-4e6f-b4f7-a88fc26a2b8c'
+            termId: '4f241fd6-6a6a-47f0-846b-8e8b374a031f'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.ef8a7d81-4ec3-4953-945f-99f45162f4b8'
+            termId: 'e8ac92b4-db0a-4d2e-b2a5-b6602c334e10'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.fa85ba33-8803-4a76-9cc1-916e67e63032'
+            termId: '22a17dcd-50ec-4056-8ab4-5b108e877c71'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.703d47a1-240d-4878-a95f-c1d84d50b386'
+            termId: 'a1672c03-0271-4a36-964e-d6c5dda99fe2'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.c2efe254-4b6a-458a-a80d-111136ac17f0'
+            termId: '1a6ea260-91da-4c2f-9742-5e698de0ecf4'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.673912d0-f0af-41c7-91e1-15d2236a27a8'
+            termId: '53ced70b-590d-4d3a-9eee-17e75350f95c'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.4945429d-ab6b-4eeb-b387-cf099eee74b3'
+            termId: '6cad4829-7053-475e-8cff-ea5c5926cc10'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.710160b4-6d09-4096-a9c8-4e77d048d925'
+            termId: '5eb7f3d7-5aa1-4dd4-9ff4-7a08a5300273'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.57efdef0-2bbe-4b2a-a11f-b804739792a0'
+            termId: '6dc6ffdc-d1cd-4a66-8ce1-959c3f05ea11'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.d2a594d2-9650-4257-9588-d65a61809787'
+            termId: '98a9ae0e-2c74-49dc-8d32-c45ffb0efe36'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.c0d58d07-f46d-4209-8176-2dd2a81090f7'
+            termId: '961a36f4-51c0-4047-8524-b362d0553c3e'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.c3e7fee6-416a-44d6-9df1-c08eb4220081'
+            termId: 'd49d0c63-e43f-43fe-acfe-a8a9eb21b3d9'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.b2247a07-2ad5-4a0f-8ef8-02497c60881d'
+            termId: '60face3d-10db-4c66-8a16-74374cdabf7e'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.4ad31089-4f01-4aed-a792-1c75a4b058c9'
+            termId: '8d8f797c-f259-4a28-924c-d1675910651c'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.11238a27-68ce-43a2-b01e-16a6e6d1abb2'
+            termId: 'e78e0690-95e7-47b5-a096-536fc27875b2'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.f635c5e0-1f06-446c-88c1-1a196f503787'
+            termId: 'd2cbe040-f809-4049-b42e-3d6daf01f411'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.d70c058d-6de0-49cb-bc7c-dae44aa85367'
+            termId: 'e78a50a5-fbc8-4147-8e02-58acbaa6e607'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.4fd6616a-abab-4348-bf9f-6197fee3d906'
+            termId: '72dfffd0-d6ba-47df-ada0-ae2788c9de04'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.10728be8-9f6a-41b8-94e3-4fe94f6346b4'
+            termId: '784e136c-1d3e-471e-a488-8274657f4291'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.0a3d7dc5-4a0a-402d-940a-5362248d6cfc'
+            termId: 'bb8f7453-0b93-4873-a8d6-9f8ee2ae1658'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.790e7e34-0f39-4ebc-aee7-9ad156c80ae0'
+            termId: 'e6645b11-8164-4b1c-83be-284a3222f333'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.91961367-f6eb-49f9-83da-78946f8a051f'
+            termId: '9639525c-6c30-4cb0-be5b-d3e82d6db8bc'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.68cefc2a-1d9c-45bd-b8a8-7d760d2797d1'
+            termId: 'a9505f49-3d79-4e2c-bf8d-5580d4d63ed7'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.e5e45878-491f-4d6d-97d7-12a1b98f27f0'
+            termId: 'd2a42a8e-55a0-4294-b912-e3860561a692'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.a314cedd-0cd7-4953-9150-fa8fd9a4ce21'
+            termId: '0473f69d-8926-4224-8148-ab218f7c29c7'
+          - expression: '8e47126e-9ac0-4468-92db-03b6860d38d7.cdc2cf09-9131-436d-842a-e7a27b825d29'
+            termId: '466dc3be-32db-40bb-a8ef-18acdf30edc9'
+relationships:
+  - id: 'cfb76c8f-dd3b-4f7a-ae18-db5d4c0deda9'
+    referencedModelObjectId: '62f4faf9-3e33-4fb6-af57-2e523a567c5a'
+    role: 'ORDER'
+    additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: 'ac8aaa7c-299d-4a74-8932-855fe24666a3'
+        termId: 'da6bdd36-42c1-44f1-b011-b8f9d75a056d'
+    propertyValues: []
