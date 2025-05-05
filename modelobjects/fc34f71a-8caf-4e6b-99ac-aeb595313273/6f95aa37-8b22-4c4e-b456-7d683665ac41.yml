@@ -112,8 +112,9 @@ dataflows:
         name: 'Set1'
         dataflowModelObjects:
           - id: 'ddc3673c-bb8e-43c7-94be-0c8129f8be78'
-            alias: 's1'
+            alias: 'detail'
             sourceModelObjectId: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
+            propertyValues: []
         termMappings:
           - termId: '70b9f6c7-e421-4edc-885e-1ebccc2d92bc'
           - termId: 'f503033c-3aef-4e5a-9343-2a15689b4c5f'
