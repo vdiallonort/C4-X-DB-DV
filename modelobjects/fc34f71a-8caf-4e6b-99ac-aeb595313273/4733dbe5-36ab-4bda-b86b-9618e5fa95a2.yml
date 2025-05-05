@@ -101,8 +101,9 @@ dataflows:
         name: 'Set1'
         dataflowModelObjects:
           - id: '12f5c5ac-ddf5-44cd-82ff-5df2a69e7785'
-            alias: 's1'
+            alias: 'salesorderheader'
             sourceModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
+            propertyValues: []
           - id: '60a5ac07-7cc4-4789-9465-dd62ccc01847'
             alias: 's2'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
