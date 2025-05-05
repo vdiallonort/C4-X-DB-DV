@@ -65,9 +65,10 @@ dataflows:
             sourceModelObjectId: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
             propertyValues: []
           - id: '95f935f8-6322-4c97-8f43-695fe70e0b0f'
-            alias: 's1'
+            alias: 'salesorderheader'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
+            propertyValues: []
         termMappings:
           - termId: '2697025d-d1ec-472b-9526-06a72b4f8572'
           - termId: '0d352d93-5945-47d7-b8e7-2bb7cbbcf671'
