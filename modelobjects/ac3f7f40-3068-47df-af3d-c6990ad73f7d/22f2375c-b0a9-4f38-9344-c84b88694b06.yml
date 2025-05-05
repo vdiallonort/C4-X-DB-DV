@@ -66,5 +66,4 @@ dataflows:
           - termId: '5708053c-5fa8-41d1-87ef-ff0825547d86'
           - termId: 'a67165d4-d50a-4174-a6db-ccc8b59ab5f2'
           - termId: '2aa0b7c4-abbd-40d1-8a94-0d52728f1ef4'
-          - expression: 'dc55a22a-885d-40a5-8064-68f6cf0c5e04.cb94c801-dff8-40ea-a044-6b0dbfdff764'
-            termId: 'd3ae4c05-0ede-4501-a70c-860b765b7209'
+          - termId: 'd3ae4c05-0ede-4501-a70c-860b765b7209'
