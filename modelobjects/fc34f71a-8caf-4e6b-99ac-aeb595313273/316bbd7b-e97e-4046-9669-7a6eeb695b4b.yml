@@ -106,6 +106,7 @@ dataflows:
             propertyValues: []
           - id: '74bf7ae4-6865-4042-8f45-ca6af556d2b0'
             alias: 'creditcard'
+            joinExpression: 'dcfc3e99-3e82-4540-a55c-8bba6424780f.f635c5e0-1f06-446c-88c1-1a196f503787=74bf7ae4-6865-4042-8f45-ca6af556d2b0.cb94c801-dff8-40ea-a044-6b0dbfdff764'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'd5cf0431-716d-4dcd-a333-9625c172be6b'
             propertyValues: []
