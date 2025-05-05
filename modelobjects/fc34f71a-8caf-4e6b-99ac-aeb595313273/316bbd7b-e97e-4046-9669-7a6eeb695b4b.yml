@@ -1,6 +1,7 @@
 id: '316bbd7b-e97e-4046-9669-7a6eeb695b4b'
-name: 'SALESORDERHEADER'
+name: 'ORDER_CREDITCARD'
 description: 'Generated Model Object from SALESORDERHEADER'
+isDeactivated: false
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
   - id: '01f925b1-5f25-4afd-a5fd-c6dff7868b98'
