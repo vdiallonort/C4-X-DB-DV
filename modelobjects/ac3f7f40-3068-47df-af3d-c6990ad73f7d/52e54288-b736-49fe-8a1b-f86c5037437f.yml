@@ -66,6 +66,7 @@ dataflows:
             propertyValues: []
           - id: '95f935f8-6322-4c97-8f43-695fe70e0b0f'
             alias: 'salesorderheader'
+            joinExpression: 'af58ed16-ce66-4810-9655-e2e42364fad5.4ede442a-d81d-4b47-9c15-723e363ebdcb=95f935f8-6322-4c97-8f43-695fe70e0b0f.ebab951c-2665-4fd8-b7bb-0ec3323dd5dc'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
             propertyValues: []
