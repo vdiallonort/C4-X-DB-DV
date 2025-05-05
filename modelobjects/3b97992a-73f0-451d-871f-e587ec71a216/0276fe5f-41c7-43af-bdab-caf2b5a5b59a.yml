@@ -134,7 +134,7 @@ terms:
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
   - id: 'c292e9ae-2b08-48cb-a16d-d003d54cc58b'
-    name: 'FK_CREDITCARD_creditcardid'
+    name: 'FK_CREDITCARD_creditcardnumber'
     hiddenInSource: true
     hiddenInTarget: false
     isBusinessKey: false

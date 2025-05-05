@@ -43,7 +43,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'd3ae4c05-0ede-4501-a70c-860b765b7209'
-    name: 'creditcardid'
+    name: 'creditcardnumber'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: true
@@ -52,6 +52,7 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+    propertyValues: []
 dataflows:
   - id: '9d858cec-0f7a-43cc-8eb6-09004958fa7f'
     name: 'Dataflow1'
