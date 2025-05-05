@@ -106,6 +106,7 @@ dataflows:
             propertyValues: []
           - id: '60a5ac07-7cc4-4789-9465-dd62ccc01847'
             alias: 'customer'
+            joinExpression: '12f5c5ac-ddf5-44cd-82ff-5df2a69e7785.d2a594d2-9650-4257-9588-d65a61809787=60a5ac07-7cc4-4789-9465-dd62ccc01847.128a9858-1a7a-4de4-84ac-bfe223812c72'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '6ffe505a-7b12-42ef-a8be-aa0a80db665e'
             propertyValues: []
