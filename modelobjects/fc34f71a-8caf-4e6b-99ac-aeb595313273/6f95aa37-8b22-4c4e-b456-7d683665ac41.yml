@@ -1,6 +1,7 @@
 id: '6f95aa37-8b22-4c4e-b456-7d683665ac41'
-name: 'SALESORDERDETAIL'
+name: 'ORDER_ORDERDETAIL'
 description: 'Generated Model Object from SALESORDERDETAIL'
+isDeactivated: false
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
   - id: '70b9f6c7-e421-4edc-885e-1ebccc2d92bc'
