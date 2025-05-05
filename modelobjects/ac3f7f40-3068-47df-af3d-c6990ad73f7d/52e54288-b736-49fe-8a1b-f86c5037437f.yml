@@ -61,8 +61,9 @@ dataflows:
         name: 'Set1'
         dataflowModelObjects:
           - id: 'af58ed16-ce66-4810-9655-e2e42364fad5'
-            alias: 's1'
+            alias: 'orderdetail'
             sourceModelObjectId: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
+            propertyValues: []
         termMappings:
           - termId: '2697025d-d1ec-472b-9526-06a72b4f8572'
           - termId: '0d352d93-5945-47d7-b8e7-2bb7cbbcf671'
