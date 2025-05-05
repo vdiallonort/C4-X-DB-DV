@@ -1,6 +1,7 @@
 id: '4733dbe5-36ab-4bda-b86b-9618e5fa95a2'
-name: 'SALESORDERHEADER'
+name: 'CUSTOMER_ORDER'
 description: 'Generated Model Object from SALESORDERHEADER'
+isDeactivated: false
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
   - id: '4b104a06-eb2b-4f2f-b54a-11cafc537a25'
