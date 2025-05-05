@@ -11,5 +11,7 @@ sourceSystems:
     isLinkedProject: true
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
 propertyValues:
+  - propertyId: '59eca19a-3bec-4169-85fd-41331f6fac3a'
+    value: 'true'
   - propertyId: 'f968226e-a2ad-4e3d-b381-c8daf473cc06'
     value: 'Python Logger'
