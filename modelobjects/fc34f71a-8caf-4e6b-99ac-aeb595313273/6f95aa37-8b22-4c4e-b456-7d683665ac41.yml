@@ -115,6 +115,10 @@ dataflows:
             alias: 'detail'
             sourceModelObjectId: 'b279ce54-aed4-4ed7-95bb-9482780ee65e'
             propertyValues: []
+          - id: '9cd4be06-1110-4a09-bfc8-2191e25ad3d4'
+            alias: 's1'
+            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            sourceModelObjectId: 'a244b999-e129-4838-adff-71417e8d8cb7'
         termMappings:
           - termId: '70b9f6c7-e421-4edc-885e-1ebccc2d92bc'
           - termId: 'f503033c-3aef-4e5a-9343-2a15689b4c5f'
