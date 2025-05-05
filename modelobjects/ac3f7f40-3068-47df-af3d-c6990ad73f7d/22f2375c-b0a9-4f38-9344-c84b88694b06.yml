@@ -51,7 +51,7 @@ terms:
     isIdentity: false
     isNullable: false
     dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
     propertyValues: []
 dataflows:
   - id: '9d858cec-0f7a-43cc-8eb6-09004958fa7f'
