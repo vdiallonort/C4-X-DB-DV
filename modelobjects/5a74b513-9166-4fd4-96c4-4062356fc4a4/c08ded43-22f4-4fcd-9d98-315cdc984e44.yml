@@ -133,7 +133,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 tags:
-  - '$discovery#id#2ea6d64a-38f6-4e16-b78d-26ffa30c9092'
+  - '$discovery#id#1cc4249a-a3f8-4687-b7e5-c5f875e902fa'
   - '$linkedproject#id#d829e8ec-d42d-4473-737b-08dd7ccec69f'
   - '$linkedproject#targetname#STG_ST_CURRENCYRATE_Result'
   - '$sourcesystem#id#f62b2a4a-3f59-4045-b1da-ee0d6b00592c'

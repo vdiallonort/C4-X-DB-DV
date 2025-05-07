@@ -1,10 +1,10 @@
-id: 'd5cf0431-716d-4dcd-a333-9625c172be6b'
-name: 'CREDITCARD'
-description: 'Generated Model Object from CREDITCARD'
+id: '553d3dea-2345-4295-9b48-bdaa172a9146'
+name: 'CUSTOMERCRM'
+description: 'Generated Model Object from CUSTOMERCRM'
 isLinked: true
 modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
 terms:
-  - id: '129ada7c-a6a8-465e-a548-a1f637cab7a2'
+  - id: '2f765418-e11c-4658-abb7-2295180689a5'
     name: 'BG_SourceFilePath'
     description: 'Default term, which stores the name of theinput file'
     hiddenInSource: false
@@ -16,7 +16,7 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
-  - id: '99729506-dd86-455f-8884-447394a99eb6'
+  - id: '483b65d7-87f0-4ddd-a1c4-b6b486c0b79b'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
     hiddenInSource: false
@@ -28,7 +28,7 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
-  - id: '92f5ed50-1b54-4132-998e-7aeff66658d0'
+  - id: 'ce72d173-3eed-4d4b-bfd8-ca03a0cd4f44'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
     hiddenInSource: false
@@ -40,8 +40,8 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
-  - id: 'cb94c801-dff8-40ea-a044-6b0dbfdff764'
-    name: 'creditcardid'
+  - id: '67b7f8fe-82e1-4bb9-8488-891f91324e8d'
+    name: 'AccountNumber'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: true
@@ -50,9 +50,9 @@ terms:
     isIdentity: false
     isNullable: false
     dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
-  - id: '743ae6bc-1205-4084-b2d3-c5ce628ef462'
-    name: 'cardtype'
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e8499a0e-e953-4c12-bce1-c24577008d49'
+    name: 'Marital_Status'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: false
@@ -62,8 +62,8 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
-  - id: '3bc4f70e-84c9-463f-b067-6ea917a4a4aa'
-    name: 'cardnumber'
+  - id: '2faf4197-8bce-4efd-896f-9e48b794a896'
+    name: 'Gender'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: false
@@ -73,8 +73,8 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
-  - id: '003c03a4-40f8-4fbd-a792-a9a00da92cfc'
-    name: 'expmonth'
+  - id: '524caf83-5a8a-454e-9030-f7f029525522'
+    name: 'Number_Of_Children'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: false
@@ -84,29 +84,7 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
-  - id: '0d8221d1-ed8e-4d91-95e4-83510f98c75b'
-    name: 'expyear'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isDefaultTerm: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
-  - id: '866074d0-0a03-47f8-ba7a-d45356078a19'
-    name: 'modifieddate'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isDefaultTerm: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
-  - id: '742f3e56-f89b-49ab-81bc-ec8262db63f7'
+  - id: '16a66f8c-c28a-447d-8239-7faa46bc8418'
     name: 'dt'
     hiddenInSource: false
     hiddenInTarget: false
@@ -120,5 +98,5 @@ terms:
 tags:
   - '$discovery#id#1cc4249a-a3f8-4687-b7e5-c5f875e902fa'
   - '$linkedproject#id#d829e8ec-d42d-4473-737b-08dd7ccec69f'
-  - '$linkedproject#targetname#STG_ST_CREDITCARD_Result'
+  - '$linkedproject#targetname#STG_ST_CUSTOMERCRM_Result'
   - '$sourcesystem#id#f62b2a4a-3f59-4045-b1da-ee0d6b00592c'
