@@ -1,0 +1,226 @@
+id: '8997e8ed-3b07-4374-be11-1afb4cf092e7'
+name: 'CUSTOMERCRM'
+description: 'Generated Model Object from CUSTOMERCRM'
+modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
+terms:
+  - id: '3a1deaa4-e149-4c63-8cfb-c2ee2d00ec64'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '9f8e1c0a-9712-41af-a71d-55201813e822'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7e154e26-9e8a-4d5b-8a67-abe71e628385'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f7c58f13-c805-4ef2-ac17-0a518a34b18c'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '43e6b627-e3f5-4340-bc24-a59c54c2a07f'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd65811a6-a3a3-494c-ad89-b89984c9e818'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'eadea2ec-c2aa-4e9c-8dae-bb819916d64d'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f53d67ec-58cd-44e8-9d37-684771962103'
+    name: 'BG_DataflowSetName'
+    description: 'Default term for incremental load'
+    defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0b6c9c98-8113-4b52-a444-0d95a79f4d63'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: '0c3931be-bbb4-44b2-9507-31618926bda3'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+  - id: '07a9bdfb-fefa-407c-a295-fbdfe790c4a1'
+    name: 'FK_CUSTOMER_accountnumber'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8ec2a87b-d975-4ddc-a585-68a4fbdd5e0c'
+    name: 'Marital_Status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2f32d31d-d278-4902-82a3-1c6c3211398b'
+    name: 'Gender'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'fd9f97f9-ce5c-4e6d-b72c-d1eeb9a33d71'
+    name: 'Number_Of_Children'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'ba2ea593-3eb5-4ecf-a637-3156076c7abb'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+dataflows:
+  - id: '33e5f0fb-c7b0-4bdd-a268-32f1ba4cef59'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'c911afb5-4aa6-4c3b-a911-c5e3995f4355'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '52c0db84-1b16-42aa-a107-a7c345cdcb9f'
+            alias: 's1'
+            sourceModelObjectId: '553d3dea-2345-4295-9b48-bdaa172a9146'
+        termMappings:
+          - termId: '3a1deaa4-e149-4c63-8cfb-c2ee2d00ec64'
+          - termId: '9f8e1c0a-9712-41af-a71d-55201813e822'
+          - termId: '7e154e26-9e8a-4d5b-8a67-abe71e628385'
+          - termId: 'f7c58f13-c805-4ef2-ac17-0a518a34b18c'
+          - termId: '43e6b627-e3f5-4340-bc24-a59c54c2a07f'
+          - termId: 'd65811a6-a3a3-494c-ad89-b89984c9e818'
+          - termId: 'eadea2ec-c2aa-4e9c-8dae-bb819916d64d'
+          - termId: 'f53d67ec-58cd-44e8-9d37-684771962103'
+          - termId: '0b6c9c98-8113-4b52-a444-0d95a79f4d63'
+          - termId: '0c3931be-bbb4-44b2-9507-31618926bda3'
+          - expression: '52c0db84-1b16-42aa-a107-a7c345cdcb9f.67b7f8fe-82e1-4bb9-8488-891f91324e8d'
+            termId: '07a9bdfb-fefa-407c-a295-fbdfe790c4a1'
+          - expression: '52c0db84-1b16-42aa-a107-a7c345cdcb9f.e8499a0e-e953-4c12-bce1-c24577008d49'
+            termId: '8ec2a87b-d975-4ddc-a585-68a4fbdd5e0c'
+          - expression: '52c0db84-1b16-42aa-a107-a7c345cdcb9f.2faf4197-8bce-4efd-896f-9e48b794a896'
+            termId: '2f32d31d-d278-4902-82a3-1c6c3211398b'
+          - expression: '52c0db84-1b16-42aa-a107-a7c345cdcb9f.524caf83-5a8a-454e-9030-f7f029525522'
+            termId: 'fd9f97f9-ce5c-4e6d-b72c-d1eeb9a33d71'
+          - expression: '52c0db84-1b16-42aa-a107-a7c345cdcb9f.16a66f8c-c28a-447d-8239-7faa46bc8418'
+            termId: 'ba2ea593-3eb5-4ecf-a637-3156076c7abb'
+relationships:
+  - id: 'e1aa62df-4047-4646-9fcd-660fa23e9095'
+    referencedModelObjectId: 'd9b18ad7-6fbe-41ed-b86d-34a872dfe68e'
+    role: 'CUSTOMER'
+    additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: 'd5335101-5e17-4a1d-84b4-6b43e1698b56'
+        termId: '07a9bdfb-fefa-407c-a295-fbdfe790c4a1'
+    propertyValues: []
