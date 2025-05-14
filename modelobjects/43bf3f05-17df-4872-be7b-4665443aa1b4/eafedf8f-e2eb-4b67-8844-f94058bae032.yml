@@ -1,0 +1,125 @@
+id: 'eafedf8f-e2eb-4b67-8844-f94058bae032'
+name: 'ORDERDETAIL'
+description: 'Generated Model Object from ORDERDETAIL'
+modelObjectTypeId: '43bf3f05-17df-4872-be7b-4665443aa1b4'
+terms:
+  - id: '97f8af12-52b4-49ee-87db-cb621db1351e'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '0626307c-db0a-4e3b-b652-74a9b6d4d541'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'a537f0b6-aee5-4902-b655-73d50b60d8b1'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '2c6166be-2040-4df0-9934-f74bfd64b384'
+    name: 'PIT_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '18c59a21-be4d-4b7f-a5a0-dc9823008724'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6b7b2c0b-6168-49cb-b0ff-40989e7acb67'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'c78efdc4-f9c4-4036-9420-1c952efbed89'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: 'b9b85b33-6d44-42fd-b18b-9f34b08f1a35'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+  - id: '5e98d18d-3448-4560-907a-95c47f5bf260'
+    name: 'BG_DataflowSetName'
+    description: 'Default term for incremental load'
+    defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+dataflows:
+  - id: 'b29b30c1-8a31-461f-b2f6-74486f612508'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'acedfc51-a2f9-4463-b6bf-291f21bc743f'
+        name: 'Set1'
+        dataflowModelObjects: []
+        termMappings:
+          - termId: '97f8af12-52b4-49ee-87db-cb621db1351e'
+          - termId: '0626307c-db0a-4e3b-b652-74a9b6d4d541'
+          - termId: 'a537f0b6-aee5-4902-b655-73d50b60d8b1'
+          - termId: '2c6166be-2040-4df0-9934-f74bfd64b384'
+          - termId: '6b7b2c0b-6168-49cb-b0ff-40989e7acb67'
+          - termId: 'c78efdc4-f9c4-4036-9420-1c952efbed89'
+          - termId: 'b9b85b33-6d44-42fd-b18b-9f34b08f1a35'
+          - termId: '5e98d18d-3448-4560-907a-95c47f5bf260'
